@@ -16,11 +16,11 @@
             </div>
             <form class="form-login" method="post">
                 <div class="form-element">
-                    <label>E-mail ou telefone</label>
+                    <p>E-mail ou telefone: </p>
                     <input type="email" name="mail">
                 </div>
                 <div class="form-element">
-                    <label>Senha</label>
+                    <p>Senha: </p>
                     <input type="password" name="password">
                 </div>
                 <div class="form-element">

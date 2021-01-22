@@ -37,7 +37,7 @@ form.form-login{
     margin-right: 15px;
 }
 
-.form-element label{
+.form-element p{
     color: #fff;
     font-size: 14px;
 }
@@ -146,6 +146,7 @@ form .w100 h2{
 form select.nascimento{
     float: left;
     margin-top: 5px;
+    padding: 5px;
 }
 
 .input-radio{
@@ -182,4 +183,52 @@ section.linguas .center{
     padding-right: 8px;
     padding-bottom: 10px;
     border-bottom: 1px solid #ccc;
+}
+
+@media screen and (max-width: 768px) {
+    .logo{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    form.form-login{
+        margin-top: 17px;
+        display: inline-block;
+        float: none;
+        width: 100%;
+        text-align:center;
+    }
+
+    .form-login .form-element{
+        display: block;
+        margin: 10px 0;
+    }
+
+    .form-element p{
+        color: white;
+        font-size: 14px;
+    }
+
+    .form-element input[type=email],
+    .form-element input[type=password]{
+        margin-top: 4px;
+        border: 0;
+        height: 22px;
+        padding-left: 3px;
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .form-element input[type="submit"]{
+        width: 140px;
+    }
+
+    .img-pessoas{
+        display:none;
+    }
+
+    .abrir-conta{
+        width: 100%;
+    }
 }
